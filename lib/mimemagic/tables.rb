@@ -2,9 +2,10 @@
 # frozen_string_literal: true
 # Generated from script/freedesktop.org.xml
 require 'nokogiri'
-require 'mimemagic/path'
+#require 'mimemagic/path'
 
 class MimeMagic
+  DATABASE_PATH = "#{__dir__}/../../db/freedesktop.org.xml"
   EXTENSIONS = {}
   TYPES = {}
   MAGIC = []

@@ -11,3 +11,6 @@ vendor
 
 # don't include generated files
 lib/mimemagic/path.rb
+
+*.iml
+.idea
